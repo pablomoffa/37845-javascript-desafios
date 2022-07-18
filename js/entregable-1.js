@@ -44,7 +44,7 @@ console.log(numerosOrdenados);
 alert("Orden de los números de manera ascendente: " + numerosOrdenados);
 
 function preguntar() {
-    return parseInt(prompt("¿Desea continuar? \n\n1: Reiniciar el programa. \n2: Finalizar el programa. \n"));
+    return parseInt(prompt("¿Desea continuar? \n\n1: Reiniciar el programa \n2: Finalizar el programa \n"));
 }
 
 var option = preguntar();
